@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/miss_call" android:paddingLeft="@dimen/miss_view_paddingLeft" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/miss_call_format" android:drawableLeft="@drawable/miss_call" style="@style/MissDateStyle" />
+    <TextView android:id="@id/miss_mms" android:paddingLeft="@dimen/miss_view_paddingLeft" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/miss_mms_format" android:drawableLeft="@drawable/miss_mms" style="@style/MissDateStyle" />
+    <TextView android:id="@id/voice_mail" android:paddingLeft="@dimen/miss_view_paddingLeft" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/voice_mail_format" android:drawableLeft="@drawable/voice_mail" style="@style/MissDateStyle" />
+</LinearLayout>

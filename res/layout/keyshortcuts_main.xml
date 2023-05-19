@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/buttom_bar_height">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="55.0px" android:layout_marginLeft="10.0px" android:layout_marginRight="10.0px">
+            <TextView android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="25.0px" android:text="@string/shortcuts_text_up" style="@style/ShortcutsTextStyle" />
+            <TextView android:gravity="center" android:id="@id/shortcut_up" android:background="@drawable/selector_button" android:focusable="true" android:layout_width="fill_parent" android:layout_height="30.0px" style="@style/ShortcutsTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="55.0px" android:layout_marginLeft="10.0px" android:layout_marginRight="10.0px">
+            <TextView android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="25.0px" android:text="@string/shortcuts_text_down" style="@style/ShortcutsTextStyle" />
+            <TextView android:gravity="center" android:id="@id/shortcut_down" android:background="@drawable/selector_button" android:focusable="true" android:layout_width="fill_parent" android:layout_height="30.0px" style="@style/ShortcutsTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="55.0px" android:layout_marginLeft="10.0px" android:layout_marginRight="10.0px">
+            <TextView android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="25.0px" android:text="@string/shortcuts_text_left" style="@style/ShortcutsTextStyle" />
+            <TextView android:gravity="center" android:id="@id/shortcut_left" android:background="@drawable/selector_button" android:focusable="true" android:layout_width="fill_parent" android:layout_height="30.0px" style="@style/ShortcutsTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="55.0px" android:layout_marginLeft="10.0px" android:layout_marginRight="10.0px">
+            <TextView android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="25.0px" android:text="@string/shortcuts_text_right" style="@style/ShortcutsTextStyle" />
+            <TextView android:gravity="center" android:id="@id/shortcut_right" android:background="@drawable/selector_button" android:focusable="true" android:layout_width="fill_parent" android:layout_height="30.0px" style="@style/ShortcutsTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

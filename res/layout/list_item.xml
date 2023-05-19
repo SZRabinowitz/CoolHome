@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/notifity_list_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/icon_group" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/item_img_bg" android:background="@drawable/notifi_bg" android:layout_width="@dimen/notifity_list_image_bg_height" android:layout_height="@dimen/notifity_list_image_bg_width" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/item_img" android:background="@mipmap/ic_launcher" android:layout_width="@dimen/notifity_list_image_width" android:layout_height="@dimen/notifity_list_image_height" android:layout_margin="@dimen/notifity_list_image_margin" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/text_group" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/notifity_list_title" android:textColor="@color/selector_blacktowhite" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/text_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:layout_weight="3.0" android:marqueeRepeatLimit="marquee_forever" />
+                <TextView android:textSize="@dimen/notifity_list_time" android:textColor="@color/selector_blacktowhite" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/text_time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:layout_weight="1.0" android:marqueeRepeatLimit="marquee_forever" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/notifity_list_text" android:textColor="@color/selector_blacktowhite" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/text_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:layout_weight="6.0" android:marqueeRepeatLimit="marquee_forever" />
+                <TextView android:textSize="@dimen/notifity_list_count" android:textColor="@color/selector_blacktowhite" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/text_count" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:layout_weight="1.0" android:marqueeRepeatLimit="marquee_forever" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

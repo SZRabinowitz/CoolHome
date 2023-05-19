@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/keyguard" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="marquee" android:id="@id/carrier_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/idle_clock_layout_marginLeft" android:layout_marginTop="@dimen/carrier_name_layout_marginTop" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" style="@style/IdleCarrierStyle" />
+    <com.wy.f1home.activity.HomeStatusView android:gravity="left" android:orientation="vertical" android:id="@id/default_clock_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/idle_clock_layout_marginLeft" android:layout_marginTop="@dimen/idle_clock_layout_marginTop">
+        <TextClock android:id="@id/gridhome_clock_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/IdleTimeStyle" />
+        <TextClock android:id="@id/gridhome_date_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/IdleDateStyle" />
+    </com.wy.f1home.activity.HomeStatusView>
+    <TextView android:id="@id/charging" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/charging_format" android:layout_centerInParent="true" style="@style/MissDateStyle" />
+    <com.wy.f1home.Keyguard.MissView android:id="@id/missview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="60.0dip" android:layout_alignParentBottom="true" />
+    <com.wy.f1home.Keyguard.ButtomBarView android:id="@id/buttombar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

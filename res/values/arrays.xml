@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="buttons_lost_internet_access">
+        <item>@string/wifi_sign_dialog_opne_browser</item>
+        <item>@string/wifi_sign_dialog_no_sign</item>
+    </string-array>
+</resources>

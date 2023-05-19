@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="com.android.cts.wy.f1home" platformBuildVersionCode="33" platformBuildVersionName="13">
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="com.android.voicemail.permission.READ_VOICEMAIL"/>
+    <uses-permission android:name="com.android.voicemail.permission.WRITE_VOICEMAIL"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application android:allowBackup="true" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.wy.f1home.HomeApplication" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true">
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.wy.f1home.activity.KeyguardActivity" android:screenOrientation="portrait" android:theme="@style/HomeTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.MONKEY"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.wy.f1home.activity.HomeActivity" android:screenOrientation="portrait" android:theme="@style/HomeTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/mainmenu_tool_title" android:name="com.wy.f1home.activity.ToolActivity" android:screenOrientation="portrait" android:theme="@style/ToolTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/mainmenu_notify" android:launchMode="singleTask" android:name="com.wy.f1home.Notification.MainActivity" android:screenOrientation="portrait" android:theme="@style/ToolTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/mainmenu_tools_tweaks" android:launchMode="singleTask" android:name="com.wy.f1home.Verizon.VerizonActivity" android:screenOrientation="portrait" android:theme="@style/ToolTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/shortcuts" android:name="com.wy.f1home.KeyShortcuts.KeyShortcutsActivity" android:screenOrientation="portrait" android:theme="@style/ToolTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.wy.keyshortcuts"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/shortcuts" android:name="com.wy.f1home.KeyShortcuts.KeyShortcutsSelectActivity" android:screenOrientation="portrait" android:theme="@style/ToolTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:label="@string/app_name" android:name="com.wy.f1home.Notification.NLService" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/shortcuts" android:name="com.wy.f1home.RecentTasks.RecentTasksActivity" android:screenOrientation="portrait" android:theme="@style/ToolTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/title_activity_media_center" android:launchMode="singleTask" android:name="com.wy.f1home.MediaCenter.MediaCenter" android:screenOrientation="portrait" android:theme="@style/ToolTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.wy.f1home.FloatSoftKey.FloatSoftKeyServer">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.caron..FloatSoftKey.FloatSoftKeyServer"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:exported="true" android:name="com.wy.f1home.FloatSoftKey.FloatSoftReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="kika.ime.state.on.kt9"/>
+                <action android:name="kika.ime.state.on.Kt9"/>
+                <action android:name="kika.ime.state.on.KT9"/>
+                <action android:name="kika.ime.state.on.abc"/>
+                <action android:name="kika.ime.state.on.Abc"/>
+                <action android:name="kika.ime.state.on.ABC"/>
+                <action android:name="kika.ime.state.on.123"/>
+                <action android:name="kika.ime.state.off"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.wy.f1home.Receiver.BootReceiver">
+            <intent-filter>
+                <action android:name="com.android.internal.telephony.CARRIER_SIGNAL_PCO_VALUE"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="true" android:name="com.wy.f1home.Receiver.LegacyVoicemailNotificationReceiver">
+            <intent-filter>
+                <action android:name="com.android.wy.legacyvoicemail"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.telephony.action.SHOW_VOICEMAIL_NOTIFICATION"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.voicemail.VoicemailClient.ACTION_SHOW_LEGACY_VOICEMAIL"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/shortcuts" android:name="com.wy.f1home.uitl.WifiSignActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Dialog">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="true" android:name="com.wy.f1home.Receiver.WifiSignReceiver">
+            <intent-filter>
+                <action android:name="android.f1launcher.wifi.sign"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

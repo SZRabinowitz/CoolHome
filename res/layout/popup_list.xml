@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/data_list" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/tool_list_select" android:divider="@null" android:footerDividersEnabled="true" />
+    <RelativeLayout android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="@dimen/buttom_bar_height"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentTop="true" />
+        <TextView android:textSize="@dimen/buttom_bar_text_size" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/buttom_bar_select" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Apps xmlns:app="http://schemas.android.com/apk/res-auto">
+    <App app:clsName="com.android.mms.ui.ConversationList" app:group="mainmenu" app:icon="@drawable/ic_messages" app:label="Messages" app:pkgName="com.android.mms" app:position="1" />
+    <App app:clsName="com.android.contacts.PeopleActivity" app:group="mainmenu" app:icon="@drawable/ic_contacts" app:label="Contacts" app:pkgName="com.android.contacts" app:position="2" />
+    <App app:clsName="com.android.gallery3d.app.Gallery" app:group="mainmenu" app:icon="@drawable/ic_gallery" app:label="Gallery" app:pkgName="com.lge.gallery" app:position="3" />
+    <App app:clsName="com.lge.camera.app.CameraActivity" app:group="mainmenu" app:icon="@drawable/ic_camera" app:label="Camera" app:pkgName="com.lge.camera" app:position="4" />
+    <App app:clsName="com.lge.music.ui.browser.FPMusicBrowserActivity" app:group="mainmenu" app:icon="@drawable/ic_music" app:label="Music" app:pkgName="com.lge.music" app:position="5" />
+    <App app:clsName="com.android.calendar.AllInOneActivity" app:group="mainmenu" app:icon="@drawable/ic_calendar" app:label="Calendar" app:pkgName="com.android.calendar" app:position="6" />
+    <App app:clsName="com.android.cts.apps4fliplauncher.NerdLauncherActivity" app:group="mainmenu" app:icon="@drawable/ic_apps" app:label="Apps" app:pkgName="com.android.cts.apps4fliplauncher" app:position="7" />
+    <App app:clsName="com.lge.clock.ToolsActivity" app:group="mainmenu" app:icon="@drawable/ic_tools" app:label="Tools" app:pkgName="com.lge.clock" app:position="8" />
+    <App app:clsName="com.android.settings.fp.SettingsFPActivity" app:group="mainmenu" app:icon="@drawable/ic_settings" app:label="Settings" app:pkgName="com.android.settings" app:position="9" />
+    <App app:clsName="com.android.soundrecorder.SoundRecorder" app:group="extra" app:icon="@drawable/tool_voice_recorder_select" app:label="@string/mainmenu_tool_voice_recorder" app:pkgName="com.android.soundrecorder" app:position="1" />
+    <App app:clsName="com.android.calendar.AllInOneActivity" app:group="extra" app:icon="@drawable/tool_calendar_select" app:label="@string/mainmenu_tool_calendar" app:pkgName="com.wy.f1calendar" app:position="2" />
+    <App app:clsName="caron.activity.CaronAlarmClockActivity" app:group="extra" app:icon="@drawable/tool_alarm_select" app:label="@string/mainmenu_tool_alarm" app:pkgName="com.android.deskclock" app:position="3" />
+    <App app:clsName="caron.activity.CaronWorldClockActivity" app:group="extra" app:icon="@drawable/tool_world_clock_select" app:label="@string/mainmenu_tool_world_clock" app:pkgName="com.android.deskclock" app:position="4" />
+    <App app:clsName="caron.activity.CaronTimerActivity" app:group="extra" app:icon="@drawable/tool_timer_select" app:label="@string/mainmenu_tool_timer" app:pkgName="com.android.deskclock" app:position="5" />
+    <App app:clsName="caron.activity.CaronStopwatchActivity" app:group="extra" app:icon="@drawable/tool_stopwatch_select" app:label="@string/mainmenu_tool_stopwatch" app:pkgName="com.android.deskclock" app:position="6" />
+    <App app:clsName="com.wy.f1calculator.MainActivity" app:group="extra" app:icon="@drawable/tool_calculator_select" app:label="@string/mainmenu_tool_calculator" app:pkgName="com.wy.f1calculator" app:position="7" />
+    <App app:clsName="com.wy.f1note.NoteActivity" app:group="extra" app:icon="@drawable/tool_notapad_select" app:label="@string/mainmenu_tool_notepad" app:pkgName="com.wy.f1note" app:position="8" />
+    <App app:clsName="com.android.qrdfileexplorer.MainActivity" app:group="extra" app:icon="@drawable/tool_file_manager_select" app:label="@string/mainmenu_tool_file_manager" app:pkgName="com.android.qrdfileexplorer" app:position="9" />
+    <App app:clsName="com.wy.f1home.KeyShortcuts.KeyShortcutsActivity" app:group="extra" app:icon="@drawable/tool_file_manager_select" app:label="@string/shortcuts" app:pkgName="com.wy.f1home" app:position="10" />
+</Apps>

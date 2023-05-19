@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/dialog_background" android:layout_width="200.0px" android:layout_height="260.0px">
+        <TextView android:textSize="16.0px" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:id="@id/dialog_title" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="30.0px" android:singleLine="true" android:layout_alignParentTop="true" />
+        <ScrollView android:id="@id/msg_wrapper" android:background="@drawable/frame_selector" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="145.0px" android:layout_below="@id/dialog_title">
+            <TextView android:id="@id/dialog_message" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/mass_text_style" />
+        </ScrollView>
+        <ListView android:id="@id/dialog_buttons" android:layout_width="fill_parent" android:layout_height="60.0px" android:layout_marginBottom="5.0dip" android:divider="@null" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>
