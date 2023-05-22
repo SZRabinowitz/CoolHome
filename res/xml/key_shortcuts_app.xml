@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Apps xmlns:app="http://schemas.android.com/apk/res-auto">
-    <App app:clsName="com.lge.clock.alarmclock.AlarmListActivity" app:group="mainmenu" app:icon="@drawable/ic_recent_calls" app:label="Alarms" app:pkgName="com.lge.clock" app:position="1" />
-    <App app:clsName="com.lge.bluetoothsetting.LGBluetoothSettingActivity" app:group="mainmenu" app:icon="@drawable/ic_messages" app:label="Bluetooth" app:pkgName="com.lge.bluetoothsetting" app:position="2" />
-    <App app:clsName="com.android.calendar.AllInOneActivity" app:group="mainmenu" app:icon="@drawable/ic_contacts" app:label="Calendar" app:pkgName="com.android.calendar" app:position="3" />
-    <App app:clsName="com.lge.email.ui.setupwizard.ProviderListActivity" app:group="mainmenu" app:icon="@drawable/ic_gallery" app:label="Email" app:pkgName="com.lge.email" app:position="4" />
-    <App app:clsName="com.lge.filemanager.view.HomeActivity" app:group="mainmenu" app:icon="@drawable/ic_media_center" app:label="File Manager" app:pkgName="com.lge.filemanager" app:position="5" />
-    <App app:clsName="com.lge.fmradio.FmRadioActivity" app:group="mainmenu" app:icon="@drawable/ic_tools_tweaks" app:label="FM Radio" app:pkgName="com.lge.fmradio" app:position="6" />
-    <App app:clsName="com.android.gallery3d.app.Gallery" app:group="mainmenu" app:icon="@drawable/ic_browser" app:label="Gallery" app:pkgName="com.lge.gallery" app:position="7" />
-    <App app:clsName="com.lge.music.ui.browser.FPMusicBrowserActivity" app:group="mainmenu" app:icon="@drawable/ic_notifications" app:label="Music" app:pkgName="com.lge.music" app:position="8" />
-    <App app:clsName="com.lge.notepad.MainActivity" app:group="extra" app:icon="@drawable/tool_voice_recorder_select" app:label="Notepad" app:pkgName="com.lge.notepad.MainActivity" app:position="1" />
-    <App app:clsName="com.lge.leap.notification.NotificationMainActivity" app:group="extra" app:icon="@drawable/tool_calendar_select" app:label="Notifications" app:pkgName="com.android.systemui" app:position="2" />
-    <App app:clsName="com.android.systemui.recents.leap.RecentMainActivity" app:group="extra" app:icon="@drawable/tool_alarm_select" app:label="Recent Apps" app:pkgName="com.android.systemui" app:position="3" />
-    <App app:clsName="com.android.settings.fp.SettingsFPActivity" app:group="extra" app:icon="@drawable/tool_world_clock_select" app:label="Settings" app:pkgName="com.android.settings" app:position="4" />
-    <App app:clsName="com.lge.clock.stopwatch.StopwatchActivity" app:group="extra" app:icon="@drawable/tool_timer_select" app:label="Stopwatch" app:pkgName="com.lge.clock" app:position="5" />
-    <App app:clsName="com.lge.clock.timer.TimerActivity" app:group="extra" app:icon="@drawable/tool_stopwatch_select" app:label="Timer" app:pkgName="com.lge.clock" app:position="6" />
-    <App app:clsName="com.lge.voicerecorder.VoiceRecorder" app:group="extra" app:icon="@drawable/tool_calculator_select" app:label="Voice Recorder" app:pkgName="com.lge.voicerecorder" app:position="7" />
-    <App app:clsName="com.lge.clock.worldclock.CityListActivity" app:group="extra" app:icon="@drawable/tool_notapad_select" app:label="World Clock" app:pkgName="com.lge.clock" app:position="8" />
+    <App app:clsName="com.lge.clock.alarmclock.AlarmListActivity" app:group="mainmenu" app:icon="@drawable/ic_recent_calls" app:label="@string/alarms_shortcut" app:pkgName="com.lge.clock" app:position="1" />
+    <App app:clsName="com.lge.bluetoothsetting.LGBluetoothSettingActivity" app:group="mainmenu" app:icon="@drawable/ic_messages" app:label="@string/bluetooth_shortcut" app:pkgName="com.lge.bluetoothsetting" app:position="2" />
+    <App app:clsName="com.android.calendar.AllInOneActivity" app:group="mainmenu" app:icon="@drawable/ic_contacts" app:label="@string/calendar_shortcut" app:pkgName="com.android.calendar" app:position="3" />
+    <App app:clsName="com.lge.email.ui.setupwizard.ProviderListActivity" app:group="mainmenu" app:icon="@drawable/ic_gallery" app:label="@string/email_shortcut" app:pkgName="com.lge.email" app:position="4" />
+    <App app:clsName="com.lge.filemanager.view.HomeActivity" app:group="mainmenu" app:icon="@drawable/ic_media_center" app:label="@string/file_manager_shortcut" app:pkgName="com.lge.filemanager" app:position="5" />
+    <App app:clsName="com.lge.fmradio.IntroActivity" app:group="mainmenu" app:icon="@drawable/ic_media_center" app:label="@string/fm_radio_shortcut" app:pkgName="com.lge.fmradio" app:position="6" />
+    <App app:clsName="com.android.gallery3d.app.Gallery" app:group="mainmenu" app:icon="@drawable/ic_browser" app:label="@string/gallery_shortcut" app:pkgName="com.lge.gallery" app:position="7" />
+    <App app:clsName="com.lge.music.ui.browser.FPMusicBrowserActivity" app:group="mainmenu" app:icon="@drawable/ic_notifications" app:label="@string/music_shortcut" app:pkgName="com.lge.music" app:position="8" />
+    <App app:clsName="com.lge.notepad.MainActivity" app:group="extra" app:icon="@drawable/tool_voice_recorder_select" app:label="@string/notes_shortcut" app:pkgName="com.lge.notepad.MainActivity" app:position="1" />
+    <App app:clsName="com.lge.leap.notification.NotificationMainActivity" app:group="extra" app:icon="@drawable/tool_calendar_select" app:label="@string/notifications_shortcut" app:pkgName="com.android.systemui" app:position="2" />
+    <App app:clsName="com.android.systemui.recents.leap.RecentMainActivity" app:group="extra" app:icon="@drawable/tool_alarm_select" app:label="@string/recent_apps_shortcut" app:pkgName="com.android.systemui" app:position="3" />
+    <App app:clsName="com.android.settings.fp.SettingsFPActivity" app:group="extra" app:icon="@drawable/tool_world_clock_select" app:label="@string/settings_shortcut" app:pkgName="com.android.settings" app:position="4" />
+    <App app:clsName="com.lge.clock.stopwatch.StopwatchActivity" app:group="extra" app:icon="@drawable/tool_timer_select" app:label="@string/stopwatch_shortcut" app:pkgName="com.lge.clock" app:position="5" />
+    <App app:clsName="com.lge.clock.timer.TimerActivity" app:group="extra" app:icon="@drawable/tool_stopwatch_select" app:label="@string/timer_shortcut" app:pkgName="com.lge.clock" app:position="6" />
+    <App app:clsName="com.lge.voicerecorder.VoiceRecorder" app:group="extra" app:icon="@drawable/tool_calculator_select" app:label="@string/voice_recorder_shortcut" app:pkgName="com.lge.voicerecorder" app:position="7" />
+    <App app:clsName="com.lge.clock.worldclock.CityListActivity" app:group="extra" app:icon="@drawable/tool_notapad_select" app:label="@string/clock_shortcut" app:pkgName="com.lge.clock" app:position="8" />
 </Apps>

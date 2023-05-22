@@ -124,4 +124,20 @@ Tweaks"</string>
     <string name="wifi_sign_dialog_opne_browser">Open Browser</string>
     <string name="wifi_sign_dialog_query">"The network you're connecting to requires you to sign in through your browser first."</string>
     <string name="wifi_sign_dialog_title">Sign in Wi-Fi network</string>
+    <string name="alarms_shortcut">Alarms</string>
+    <string name="bluetooth_shortcut">bluetooth</string>
+    <string name="calendar_shortcut">Calendar</string>
+    <string name="email_shortcut">Email</string>
+    <string name="file_manager_shortcut">File Manager</string>
+    <string name="fm_radio_shortcut">FM Radio</string>
+    <string name="gallery_shortcut">Gallery</string>
+    <string name="music_shortcut">music</string>
+    <string name="notes_shortcut">Notes</string>
+    <string name="notifications_shortcut">Notifications</string>
+    <string name="recent_apps_shortcut">Recent Apps</string>
+    <string name="settings_shortcut">Settings</string>
+    <string name="stopwatch_shortcut">Stopwatch</string>
+    <string name="timer_shortcut">Timer</string>
+    <string name="voice_recorder_shortcut">Voice Recorder</string>
+    <string name="clock_shortcut">Clock</string>
 </resources>
