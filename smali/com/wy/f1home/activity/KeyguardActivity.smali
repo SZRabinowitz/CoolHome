@@ -1949,6 +1949,11 @@
     const/16 v0, 0x5
 
     if-eq p1, v0, :cond_5
+	
+	
+    const/16 v0, 0x4
+
+    if-eq p1, v0, :cond_6
 
     const/16 v0, 0x1
 
@@ -2218,6 +2223,28 @@
     invoke-virtual {p0, p1}, Lcom/wy/f1home/activity/KeyguardActivity;->startActivity_ext(Landroid/content/ComponentName;)Z
 
     return v1
+	
+	
+    :cond_6
+    const-string p1, "false"
+
+    .line 762
+    invoke-virtual {p0, p1}, Lcom/wy/f1home/activity/KeyguardActivity;->set_in_launcher(Ljava/lang/String;)V
+
+    .line 763
+    new-instance p1, Landroid/content/ComponentName;
+
+    const-string p2, "com.android.cts.wy.f1home"
+
+    const-string v0, "com.wy.f1home.KeyShortcuts.KeyShortcutsActivity"
+
+    invoke-direct {p1, p2, v0}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 764
+    invoke-virtual {p0, p1}, Lcom/wy/f1home/activity/KeyguardActivity;->startActivity_ext(Landroid/content/ComponentName;)Z
+
+    return v1
+
 
     :cond_5
     const-string p1, "false"

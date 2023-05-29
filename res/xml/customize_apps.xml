@@ -6,7 +6,7 @@
     <App app:clsName="com.lge.camera.app.CameraActivity" app:group="mainmenu" app:icon="@drawable/ic_camera" app:label="Camera" app:pkgName="com.lge.camera" app:position="4" />
     <App app:clsName="com.lge.music.ui.browser.FPMusicBrowserActivity" app:group="mainmenu" app:icon="@drawable/ic_music" app:label="Music" app:pkgName="com.lge.music" app:position="5" />
     <App app:clsName="com.android.calendar.AllInOneActivity" app:group="mainmenu" app:icon="@drawable/ic_calendar" app:label="Calendar" app:pkgName="com.android.calendar" app:position="6" />
-    <App app:clsName="com.android.cts.apps4fliplauncher.NerdLauncherActivity" app:group="mainmenu" app:icon="@drawable/ic_apps" app:label="Apps" app:pkgName="com.android.cts.apps4fliplauncher" app:position="7" />
+    <App app:clsName="com.android.cts.example.appviewer.AppListActivity" app:group="mainmenu" app:icon="@drawable/ic_apps" app:label="Apps" app:pkgName="com.android.cts.wy.f1home" app:position="7" />
     <App app:clsName="com.lge.clock.ToolsActivity" app:group="mainmenu" app:icon="@drawable/ic_tools" app:label="Tools" app:pkgName="com.lge.clock" app:position="8" />
     <App app:clsName="com.android.settings.fp.SettingsFPActivity" app:group="mainmenu" app:icon="@drawable/ic_settings" app:label="Settings" app:pkgName="com.android.settings" app:position="9" />
     <App app:clsName="com.android.soundrecorder.SoundRecorder" app:group="extra" app:icon="@drawable/tool_voice_recorder_select" app:label="@string/mainmenu_tool_voice_recorder" app:pkgName="com.android.soundrecorder" app:position="1" />

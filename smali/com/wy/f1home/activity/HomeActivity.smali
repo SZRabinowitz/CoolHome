@@ -915,9 +915,9 @@
     .line 768
     new-instance p1, Landroid/content/ComponentName;
 
-    const-string p2, "com.android.cts.apps4fliplauncher"
+    const-string p2, "com.android.cts.wy.f1home"
 
-    const-string v0, "com.android.cts.apps4fliplauncher.NerdLauncherActivity"
+    const-string v0, "com.android.cts.example.appviewer.AppListActivity"
 
     invoke-direct {p1, p2, v0}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 

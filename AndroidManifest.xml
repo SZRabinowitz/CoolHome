@@ -19,7 +19,6 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.HOME"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.MONKEY"/>
             </intent-filter>
@@ -78,6 +77,7 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
+		<activity android:exported="true" android:name="com.android.cts.example.appviewer.AppListActivity"/>
         <service android:name="com.wy.f1home.FloatSoftKey.FloatSoftKeyServer">
             <intent-filter android:priority="1000">
                 <action android:name="android.intent.caron..FloatSoftKey.FloatSoftKeyServer"/>
